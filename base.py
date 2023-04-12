@@ -9,9 +9,9 @@ from typing import Any, List
 
 from langchain.docstore.document import Document as LCDocument
 
-from gpt_index.readers.base import BaseReader
-from gpt_index.readers.file.markdown_parser import MarkdownParser
-from gpt_index.readers.schema.base import Document
+from llama_index.readers.base import BaseReader
+from llama_index.readers.file.markdown_parser import MarkdownParser
+from llama_index.readers.schema.base import Document
 
 
 class LogseqReader(BaseReader):
